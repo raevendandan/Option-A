@@ -13,19 +13,12 @@ export function Ytnav() {
       <div className="flex items-center">
         <Icon path="M3 6h18M3 12h18M3 18h18" />
 
-
-
-        <img
-          src="/menuicon.png"
-          alt="Menu"
-          className="w-5 h-5"
-        />
        
 
        <img
-          src="/ytlogo.png"
+          src="/youtlogo.png"
           alt="My Logo"
-          className="h-15 w-auto cursor-pointer"
+          className="h-6 w-auto cursor-pointer pl-6"
         />
       </div>
 
@@ -37,17 +30,17 @@ export function Ytnav() {
         />
        <button className="bg-neutral-800 px-2 rounded-r-full flex items-center justify-center hover:bg-neutral-700 transition">
   <img
-    src="/searchicon.png"
+    src="/search.png"
     alt="Search"
-    className="w-4 h-4" 
+    className="w-6 :h-6" 
   />
 </button>
 
   <button className="p-2 rounded-full bg-neutral-800 hover:bg-neutral-700 transition ml-2 px-3">
     <img
-      src="/micicon.png"
+      src="/micro.png"
       alt="Voice Search"
-      className="w-4 h-4  "
+      className="w-6 h-6  "
     />
   </button>
 
@@ -57,27 +50,21 @@ export function Ytnav() {
 
 
       <div className="flex items-center gap-4">
-        <button className="flex items-center gap-2 px-3 py-1.5  bg-neutral-800 rounded-full hover:bg-neutral-700 transition"
+        <button className="flex items-center gap-2 px-5  py-2  bg-neutral-800 rounded-full hover:bg-neutral-700 transition font-bold"
 >
-  <span className="text-lg leading-none">＋</span>
   <span className="text-sm">Create</span>
 </button>
 
 
   <button className="relative p-2 rounded-full bg-neutral-800 hover:bg-neutral 700 transition">
     <img
-      src="/notificon.png"
+      src="/notification.png"
       alt="Notifications"
       className="w-5 h-5"
     />
-
-
-    <span className="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] px-1.5 rounded-full">
-      3
-    </span>
   </button>
 
-       <button className="w-8 h-8 rounded-full overflow-hidden border border-neutral-700 hover:border-neutral-500 transition">
+       <button className="w-10 h-10 rounded-full overflow-hidden border border-neutral-700 hover:border-neutral-500 transition">
   <img
     src="/rae.jpg"
     alt="Profile"

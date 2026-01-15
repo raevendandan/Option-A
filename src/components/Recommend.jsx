@@ -48,12 +48,6 @@ export function Recommend() {
       img: "/teka.jpg",
     },
 
-     {
-      title: "Maroon 5 - Wait",
-      channel: "Maroon 5",
-      views: "1.5M views • 5 days ago",
-      img: "/wait.jpg",
-    },
 
     {
       title: "Back to friends",
@@ -81,13 +75,7 @@ export function Recommend() {
       views: "1.5M views • 3 moths ago",
       img: "/take.jpg",
     },
-   
-    {
-      title: "Burnout",
-      channel: "Sugarfree",
-      views: "500k views • 3 months ago",
-      img: "/burn.jpg",
-    },
+ 
   ];
 
   const scrollRight = () => {
@@ -109,7 +97,7 @@ export function Recommend() {
           {filters.map((filter, i) => (
             <button
               key={i}
-              className={`px-3 py-1.5 rounded-full text-xs transition
+              className={`px-5 py-1.5 rounded-full text-sm transition
                 ${
                   filter === "All"
                     ? "bg-white text-black"
@@ -138,11 +126,11 @@ export function Recommend() {
           <img
             src={video.img}
             alt={video.title}
-            className="w-35 h-20 object-cover rounded-lg"
+            className="w-50 h-25 object-cover rounded-lg"
           />
 
           <div>
-            <p className="text-xs font-medium leading-tight">
+            <p className="text-sm font-medium leading-tight">
               {video.title}
             </p>
             <p className="text-[11px] text-neutral-400 mt-1">

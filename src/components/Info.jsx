@@ -1,7 +1,7 @@
 export function Info() {
   return (
     <div className="mt-1">
-      <h2 className="text-xl font-semibold pl-12 text-[20px]">
+      <h2 className=" font-bold pl-12 text-[25px]">
         innocence - daniel caesar
       </h2> 
 
@@ -19,7 +19,7 @@ export function Info() {
             <p className="text[14px] font-medium">bill</p>
             <p className="text-[12px] text-neutral-400">3.24k subscribers</p>
           </div>
-          <button className="ml-4 bg-white text-black px-4 py-2 rounded-full text-[12px] font-medium">
+          <button className="ml-4 bg-white text-black px-6 py-2 rounded-full text-[12px] font-bold">
             Subscribe
           </button>
         </div>
@@ -53,32 +53,16 @@ export function Info() {
 
 
 <button className="flex items-center gap-2 bg-neutral-800 px-4 py-2 rounded-full hover:bg-neutral-700">
-  <img
-    src="/share.png"
-    alt="Share"
-    className="w-6 h-6"
-  />
+    
   <span className="text-[14px] font-medium">Share</span>
 </button>
 
 <button className="flex items-center gap-2 bg-neutral-800 px-4 py-2 rounded-full hover:bg-neutral-700">
-  <img
-    src="/download.png"  
-    alt="Download"
-    className="w-6 h-6"
-  />
+
   <span className="text-[14px] font-medium">Download</span>
 </button>
 
 
-<button className="flex items-center gap-2 bg-neutral-800 px-4 py-2 rounded-full hover:bg-neutral-700">
-  <img
-    src="/clip.png"  
-    alt="Clip"
-    className="w-6 h-6"s
-  />
-  <span className="text-[14px] font-medium">Clip</span>
-</button>
 
 
 <button className="flex items-center gap-2 bg-neutral-800 px-4 py-2 rounded-full hover:bg-neutral-700">
@@ -97,11 +81,11 @@ export function Info() {
 
 
   <p className="font-medium">
-    6M views <span className="text-neutral-400">• 1 year ago</span>
+    6M views <span className="text-neutral-400"> 1 year ago</span>
   </p>
 
 
-  <p className="mt-1 text-neutral-300 font-medium pb-4">
+  <p className="mt-1 text-neutral-300 font-light pb-4">
     he mentioned in an interview that this was cut off the album NEVER ENOUGH. this is the song in full, there was a portion released a while ago titled "sometimes im sad but thats alright"
   <span className="text-neutral-400 cursor-pointer hover:text-neutral-200">
       …more
